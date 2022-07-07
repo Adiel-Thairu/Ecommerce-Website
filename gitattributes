@@ -3,6 +3,9 @@
 *.cs diff=csharp text
 *.cginc text
 *.shader text
+*.env.example -linguistic-detectable
+.env.example -linguistic-detectable
+
 
 *.mat merge=unityyamlmerge eol=lf
 *.anim merge=unityyamlmerge eol=lf
